@@ -1,12 +1,15 @@
 import './styles/theme.css';
 import './styles/global.css';
+import Heading from './components/Heading/Heading';
+import { TimerIcon } from 'lucide-react';
 
 function App() {
     return (
-        <div>
-            <h1>Welcome to Chronos Pomodoro</h1>
-            <p>Your productivity companion.</p>
-        </div>
+        <>
+            <Heading> teste
+                <button><TimerIcon /> </button>
+            </Heading>
+        </>
     )
 }
 
