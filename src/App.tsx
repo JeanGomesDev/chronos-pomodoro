@@ -1,14 +1,15 @@
 import './styles/theme.css';
 import './styles/global.css';
-import Heading from './components/Heading/Heading';
-import { TimerIcon } from 'lucide-react';
+import { Container } from './components/Container/index';
+import { Heading } from './components/Heading/index';
+
 
 function App() {
     return (
         <>
-            <Heading> teste
-                <button><TimerIcon /> </button>
-            </Heading>
+            <Container>
+                <Heading>Welcome to My App</Heading>
+            </Container>
         </>
     )
 }
