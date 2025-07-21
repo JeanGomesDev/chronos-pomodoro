@@ -19,7 +19,6 @@ export function Cycles() {
         <div className={styles.cycles}>
             <span>Cycles:</span>
             <div className={styles.cycleDots}>
-
                 {cycleStep?.map((_, index) => {
                     const nextCycle = getNextCycle(index)
                     const nextCycleType = getNextCycleType(nextCycle)
@@ -32,11 +31,7 @@ export function Cycles() {
                         ></span>
 
                     )
-
                 })}
-
-
-
             </div>
         </div>
     )
