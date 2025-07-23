@@ -8,6 +8,7 @@ import { useTaskContext } from "../../contexts/TaskContent/useTaskContext";
 import { getNextCycle } from "../../utils/getNextCycle";
 import { getNextCycleType } from "../../utils/getNextCycleType";
 import { TaskActionTypes } from "../../contexts/TaskContent/taskActions";
+import { Tips } from "../Tips";
 
 
 export function MainForm() {
@@ -44,8 +45,7 @@ export function MainForm() {
     }
 
     function handleInterruptTask() {
-          dispatch({ type: TaskActionTypes.INTERRUPT_TASK });
-
+        dispatch({ type: TaskActionTypes.INTERRUPT_TASK });
     }
 
     return (
@@ -62,7 +62,7 @@ export function MainForm() {
             </div>
 
             <div className="formRow">
-                <p>Next interval is 25 min</p>
+                <Tips />
             </div>
 
             {state.currentCycle > 0 && (
