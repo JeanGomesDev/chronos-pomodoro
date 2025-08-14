@@ -15,6 +15,7 @@ export class TimerWorkerManager {
     return instance;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   postMessage(message: any) {
     this.worker.postMessage(message);
   }
