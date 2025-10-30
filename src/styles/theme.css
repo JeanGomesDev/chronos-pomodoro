@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --gray-100: #e6e9f0;
   --gray-200: #cdd3e1;
   --gray-300: #aab3cc;
@@ -34,9 +34,20 @@
 
   --disabled: #555f7d;
   --text-disabled: #aab3cc;
+
+  --toastify-color-light: var(--text-default);
+  --toastify-color-dark: var(--text-default);
+  --toastify-color-info: var(--info);
+  --toastify-color-success: var(--success);
+  --toastify-color-warning: var(--warning);
+  --toastify-color-error: var(--error);
+  --toastify-text-color-light: #0a0f1a;
+  --toastify-text-color-dark: #e6e9f0;
+  --toastify-color-progress-light: var(--primary);
+  --toastify-color-progress-dark: var(--primary);
 }
 
-:root[data-theme='light'] {
+:root[data-theme="light"] {
   --gray-100: #0a0f1a;
   --gray-200: #181f2e;
   --gray-300: #272f43;
@@ -52,4 +63,110 @@
 
   --link-color: #0b8a60;
   --link-hover: #065f46;
+} */
+
+
+/*
+🎨 Project Color Structure
+
+🔹 Dynamic Colors (change between light/dark themes)
+   - These colors adapt to the theme chosen by the user.
+   - Example: `gray-900` will be dark in dark mode and light in light mode.
+
+🔸 Fixed Colors (do not change between themes)
+   - Used for buttons, alerts, and highlights.
+   - Example: `primary`, `success`, `error` will always have the same tones.
+
+📝 Structure:
+   - General background: `gray-900` (dynamic)
+   - Cards/boxes: `gray-800` (dynamic)
+   - Borders/separators: `gray-700` or `gray-600` (dynamic)
+   - Main text: `--text-default` (dynamic)
+   - Secondary text/placeholders: `--text-muted` (dynamic)
+   - Hover/active: `gray-700` and `gray-600` or as preferred (dynamic)
+
+🚨 Pay attention to the comments! They describe each color category and its purpose.
+*/
+
+:root {
+  /* 🎭 Shades of Gray (dynamic colors that change between light/dark) */
+  --gray-100: #e6e9f0; /* Lightest gray (used for backgrounds in dark mode) */
+  --gray-200: #cdd3e1;
+  --gray-300: #aab3cc;
+  --gray-400: #555f7d;
+  --gray-500: #454f6a;
+  --gray-600: #363d56;
+  --gray-700: #272f43; /* Borders and separators */
+  --gray-800: #181f2e; /* Card and highlighted area backgrounds */
+  --gray-900: #0a0f1a; /* Main site background */
+
+  /* 🌿 Primary Colors (fixed - DO NOT change with the theme) */
+  --primary-light: #4de7b7; /* Used for subtle highlights */
+  --primary: #0da170; /* Main project color */
+  --primary-dark: #065f46; /* Used for hover and active elements */
+
+  /* 🔗 Links */
+  --link-color: #10b981; /* Default link color */
+  --link-hover: #0b8a60; /* Link color on hover */
+
+  /* 🚦 Alerts (fixed colors used for visual feedback) */
+  --success: #22c55e; /* Indicates success (green) */
+  --warning: #eab308; /* Indicates warning (yellow) */
+  --error: #991b1b; /* Indicates error (red) */
+  --info: #0ea5e9; /* Indicates information (blue) */
+
+  /* 🎨 Text on colored backgrounds (for proper contrast) */
+  --text-over-primary: #0a0f1a; /* Text over primary background */
+  --text-over-primary-dark: #e6e9f0; /* Text over dark variant */
+  --text-over-primary-light: #0a0f1a; /* Text over light variant */
+  --text-over-success: #0a0f1a; /* Text over success background */
+  --text-over-warning: #0a0f1a; /* Text over warning background */
+  --text-over-error: #e6e9f0; /* Text over error background */
+  --text-over-info: #0a0f1a; /* Text over info background */
+
+  /* 📝 Text Colors (dynamic) */
+  --text-default: #e6e9f0; /* Default text color */
+  --text-muted: #aab3cc; /* Less important text (placeholders, labels, etc.) */
+
+  /* 🚫 Disabled buttons and elements */
+  --disabled: #555f7d; /* Background color for disabled elements */
+  --text-disabled: #aab3cc; /* Text color for disabled inputs or buttons */
+
+  /* 🔔 Toastify Colors (notifications) */
+  --toastify-color-light: var(--text-default);
+  --toastify-color-dark: var(--text-default);
+  --toastify-color-info: var(--info);
+  --toastify-color-success: var(--success);
+  --toastify-color-warning: var(--warning);
+  --toastify-color-error: var(--error);
+  --toastify-text-color-light: #0a0f1a;
+  --toastify-text-color-dark: #e6e9f0;
+  --toastify-color-progress-light: var(--primary);
+  --toastify-color-progress-dark: var(--primary);
+}
+
+/* 🌞 Light Mode - Inverts some colors to maintain contrast */
+:root[data-theme="light"] {
+  /* Inverted Shades of Gray */
+  --gray-100: #0a0f1a; /* Darkest gray */
+  --gray-200: #181f2e;
+  --gray-300: #272f43;
+  --gray-400: #363d56;
+  --gray-500: #454f6a;
+  --gray-600: #555f7d;
+  --gray-700: #aab3cc;
+  --gray-800: #cdd3e1;
+  --gray-900: #e6e9f0; /* Light main background */
+
+  /* 📝 Text in light mode */
+  --text-default: #0a0f1a; /* Main text in light mode */
+  --text-muted: #272f43; /* Less important text */
+
+  /* 🔗 Links in light mode */
+  --link-color: #0b8a60;
+  --link-hover: #065f46;
+
+  /* 🔔 Toastify in light mode */
+  --toastify-text-color-light: #e6e9f0;
+  --toastify-text-color-dark: #e6e9f0;
 }
