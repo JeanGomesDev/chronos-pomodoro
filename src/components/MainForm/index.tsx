@@ -55,7 +55,7 @@ export function MainForm() {
                     id="input"
                     type='text'
                     labelText='Task'
-                    placeholder='Digite algo'
+                    placeholder="Type something"
                     ref={taskNameInput}
                     disabled={!!state.activeTask}
                 />
