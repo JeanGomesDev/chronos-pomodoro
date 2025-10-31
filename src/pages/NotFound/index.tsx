@@ -1,6 +1,7 @@
 import { Container } from "../../components/Container";
 import { GenericHtml } from "../../components/GenericHTML";
 import { Heading } from "../../components/Heading";
+import { RouterLink } from "../../components/RouterLink";
 import MainTemplate from "../../templates/MainTemplate";
 
 export function NotFound() {
@@ -16,8 +17,8 @@ export function NotFound() {
                     </p>
                     <p>
                         But don’t worry, you’re not lost in space (yet). You can safely return to the{" "}
-                        <a href='/'>homepage</a> or{" "}
-                        <a href='/history'>your history</a> — or just stay here and pretend
+                        <RouterLink href='/'>homepage</RouterLink> or{" "}
+                        <RouterLink href='/history'>your history</RouterLink> — or just stay here and pretend
                         you’ve discovered a secret page that only the coolest explorers can access. 🧭✨
                     </p>
                     <p>

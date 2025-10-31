@@ -1,6 +1,7 @@
 import { Container } from "../../components/Container";
 import { GenericHtml } from "../../components/GenericHTML";
 import { Heading } from "../../components/Heading";
+import { RouterLink } from "../../components/RouterLink";
 import MainTemplate from "../../templates/MainTemplate";
 
 export function AboutPomodoro() {
@@ -51,7 +52,7 @@ export function AboutPomodoro() {
                     <p>
                         You can set your own focus time, short break, and long break durations!  
                         Just head over to the{" "}
-                        <a href='/settings'>settings page</a> and adjust the minutes 
+                        <RouterLink href='/settings'>settings page</RouterLink> and adjust the minutes 
                         as you prefer.
                     </p>
 
@@ -95,7 +96,7 @@ export function AboutPomodoro() {
                     <h3>📊 Automatic history</h3>
                     <p>
                         All your completed and interrupted tasks are saved in the{" "}
-                        <a href='/history'>history</a>, so you can track your 
+                        <RouterLink href='/history'>history</RouterLink>, so you can track your 
                         progress over time.
                     </p>
 
@@ -109,7 +110,7 @@ export function AboutPomodoro() {
 
                     <p>
                         <strong>Ready to focus?</strong> Let’s{" "}
-                        <a href='/'>go back to the homepage</a> and start your 
+                        <RouterLink href='/'>go back to the homepage</RouterLink> and start your 
                         Pomodoros! 🍅🚀
                     </p>
 
