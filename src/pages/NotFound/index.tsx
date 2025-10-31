@@ -8,30 +8,28 @@ export function NotFound() {
         <MainTemplate>
             <Container>
                 <GenericHtml>
-                    <Heading>404 - Página não encontrada 🚀</Heading>
-          <p>
-            Opa! Parece que a página que você está tentando acessar não existe.
-            Talvez ela tenha tirado férias, resolvido explorar o universo ou se
-            perdido em algum lugar entre dois buracos negros. 🌌
-          </p>
-          <p>
-            Mas calma, você não está perdido no espaço (ainda). Dá pra voltar em
-            segurança para a <a href='/'>página principal</a> ou{' '}
-            <a href='/history'>para o histórico</a> — ou pode ficar por aqui e
-            fingir que achou uma página secreta que só os exploradores mais
-            legais conseguem acessar. 🧭✨
-          </p>
-          <p>
-            Se você acha que essa página deveria existir (ou se quiser bater um
-            papo sobre viagem no tempo e buracos de minhoca), é só entrar em
-            contato. Caso contrário, use o menu para voltar ao mundo real.
-          </p>
-          <p>
-            Enquanto isso, fica aqui uma reflexão: "Se uma página não existe na
-            internet, será que ela existiu de verdade?" 🤔💭
-          </p>
+                    <Heading>404 - Page Not Found 🚀</Heading>
+                    <p>
+                        Oops! It seems the page you’re trying to reach doesn’t exist.
+                        Maybe it’s on vacation, exploring the universe, or got lost somewhere
+                        between two black holes. 🌌
+                    </p>
+                    <p>
+                        But don’t worry, you’re not lost in space (yet). You can safely return to the{" "}
+                        <a href='/'>homepage</a> or{" "}
+                        <a href='/history'>your history</a> — or just stay here and pretend
+                        you’ve discovered a secret page that only the coolest explorers can access. 🧭✨
+                    </p>
+                    <p>
+                        If you believe this page should exist (or if you want to chat about
+                        time travel and wormholes), feel free to get in touch.
+                        Otherwise, use the menu to return to the real world.
+                    </p>
+                    <p>
+                        Meanwhile, here’s a thought:
+                        “If a page doesn’t exist on the internet, did it ever really exist?” 🤔💭
+                    </p>
                 </GenericHtml>
-        
             </Container>
         </MainTemplate>
     );

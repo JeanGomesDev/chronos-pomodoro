@@ -9,115 +9,112 @@ export function AboutPomodoro() {
             <Container>
                 <GenericHtml>
 
-                    <Heading>A Técnica Pomodoro 🍅</Heading>
+                    <Heading>The Pomodoro Technique 🍅</Heading>
 
                     <p>
-                        A Técnica Pomodoro é uma metodologia de produtividade criada por{' '}
-                        <strong>Francesco Cirillo</strong>, que consiste em dividir o
-                        trabalho em blocos de tempo (os famosos "Pomodoros") intercalados
-                        com pausas. O objetivo é manter o foco total por um período curto e
-                        garantir descansos para evitar o cansaço mental.
+                        The Pomodoro Technique is a productivity method created by{" "}
+                        <strong>Francesco Cirillo</strong>. It consists of breaking work into 
+                        time blocks (the famous "Pomodoros") separated by short breaks.
+                        The goal is to maintain full focus for short periods while ensuring 
+                        rest to prevent mental fatigue.
                     </p>
 
                     <img src='https://placehold.co/1920x1080' alt='' />
 
-                    <h2>Como funciona o Pomodoro tradicional?</h2>
+                    <h2>How does the traditional Pomodoro work?</h2>
                     <ul>
                         <li>
-                            <strong>1. Defina uma tarefa</strong> que você deseja realizar.
+                            <strong>1. Choose a task</strong> you want to work on.
                         </li>
                         <li>
-                            <strong>2. Trabalhe nela por 25 minutos</strong> sem interrupções.
+                            <strong>2. Work on it for 25 minutes</strong> without interruptions.
                         </li>
                         <li>
-                            <strong>3. Faça uma pausa curta de 5 minutos</strong>.
+                            <strong>3. Take a short 5-minute break</strong>.
                         </li>
                         <li>
-                            <strong>4. A cada 4 ciclos, faça uma pausa longa</strong>{' '}
-                            (geralmente 15 a 30 minutos).
+                            <strong>4. Every 4 cycles, take a long break</strong>{" "}
+                            (usually 15 to 30 minutes).
                         </li>
                     </ul>
 
                     <h2>
-                        Mas no <strong>Chronos Pomodoro</strong> tem um diferencial 🚀
+                        But <strong>Chronos Pomodoro</strong> takes it one step further 🚀
                     </h2>
 
                     <p>
-                        Nosso app segue o conceito original, mas com algumas melhorias e
-                        personalizações pra deixar o processo ainda mais eficiente:
+                        Our app follows the original concept but adds some improvements 
+                        and customization options to make the process even more efficient:
                     </p>
 
-                    <h3>⚙️ Personalização do tempo</h3>
+                    <h3>⚙️ Customizable time settings</h3>
                     <p>
-                        Você pode configurar o tempo de foco, descanso curto e descanso
-                        longo do jeito que quiser! Basta acessar a{' '}
-                        <a href='/settings'>página de configurações</a> e ajustar os minutos
-                        como preferir.
+                        You can set your own focus time, short break, and long break durations!  
+                        Just head over to the{" "}
+                        <a href='/settings'>settings page</a> and adjust the minutes 
+                        as you prefer.
                     </p>
 
-                    <h3>🔁 Ciclos organizados em sequência</h3>
+                    <h3>🔁 Organized sequential cycles</h3>
                     <p>
-                        A cada ciclo completado, uma nova task é adicionada automaticamente
-                        ao seu histórico, e o app já sugere o próximo ciclo (foco ou
-                        descanso).
+                        After each completed cycle, a new task is automatically added 
+                        to your history, and the app suggests the next cycle 
+                        (focus or break).
                     </p>
                     <p>
-                        <strong>Nosso padrão:</strong>
+                        <strong>Our default pattern:</strong>
                     </p>
                     <ul>
                         <li>
-                            Ciclos <strong>ímpares</strong>: Trabalho (foco).
+                            <strong>Odd cycles:</strong> Work (focus).
                         </li>
                         <li>
-                            Ciclos <strong>pares</strong>: Descanso curto.
+                            <strong>Even cycles:</strong> Short break.
                         </li>
                         <li>
-                            Ciclo <strong>8</strong>: Descanso longo especial, pra resetar o
-                            ciclo completo.
+                            <strong>Cycle 8:</strong> Long special break to reset 
+                            the full round.
                         </li>
                     </ul>
 
-                    <h3>🍅 Visualização dos ciclos</h3>
+                    <h3>🍅 Cycle visualization</h3>
                     <p>
-                        Logo abaixo do cronômetro, você verá bolinhas coloridas
-                        representando os ciclos:
+                        Below the timer, you’ll see colored dots representing each cycle:
                     </p>
                     <ul>
-                        <li>🟡 Amarelo: Ciclo de trabalho (foco).</li>
-                        <li>🟢 Verde: Descanso curto.</li>
-                        <li>🔵 Azul: Descanso longo (aparece a cada 8 ciclos).</li>
+                        <li>🟡 Yellow: Work cycle (focus).</li>
+                        <li>🟢 Green: Short break.</li>
+                        <li>🔵 Blue: Long break (appears every 8 cycles).</li>
                     </ul>
 
                     <p>
-                        Assim, você sempre sabe em que parte do processo está e o que vem a
-                        seguir. Não precisa mais anotar no papel ou ficar calculando de
-                        cabeça!
+                        This way, you’ll always know exactly where you are in the process 
+                        and what’s coming next. No need to write it down or do mental math anymore!
                     </p>
 
-                    <h3>📊 Histórico automático</h3>
+                    <h3>📊 Automatic history</h3>
                     <p>
-                        Todas as suas tarefas e ciclos concluídos ficam salvos no{' '}
-                        <a href='/history'>histórico</a>, com status de completas ou
-                        interrompidas. Assim, você consegue acompanhar sua evolução ao longo
-                        do tempo.
+                        All your completed and interrupted tasks are saved in the{" "}
+                        <a href='/history'>history</a>, so you can track your 
+                        progress over time.
                     </p>
 
-                    <h2>Por que usar o Chronos Pomodoro?</h2>
+                    <h2>Why use Chronos Pomodoro?</h2>
                     <ul>
-                        <li>✅ Organize seu foco com clareza.</li>
-                        <li>✅ Trabalhe e descanse na medida certa.</li>
-                        <li>✅ Personalize seus próprios ciclos e tempos.</li>
-                        <li>✅ Acompanhe seu histórico automaticamente.</li>
+                        <li>✅ Organize your focus clearly.</li>
+                        <li>✅ Work and rest in the right balance.</li>
+                        <li>✅ Customize your own cycles and durations.</li>
+                        <li>✅ Track your progress automatically.</li>
                     </ul>
 
                     <p>
-                        <strong>Pronto pra focar?</strong> Bora lá{' '}
-                        <a href='/'>voltar para a página inicial</a> e iniciar seus
+                        <strong>Ready to focus?</strong> Let’s{" "}
+                        <a href='/'>go back to the homepage</a> and start your 
                         Pomodoros! 🍅🚀
                     </p>
 
                     <p>
-                        <em>"Foco total, sem pressa, sem pausa, só vai!"</em> 💪🧘‍♂️
+                        <em>"Full focus — no rush, no pause, just flow!"</em> 💪🧘‍♂️
                     </p>
 
                 </GenericHtml>
