@@ -20,13 +20,11 @@ export function AboutPomodoro() {
 
                     <p>
                         The Pomodoro Technique is a productivity method created by{" "}
-                        <strong>Francesco Cirillo</strong>. It consists of breaking work into 
+                        <strong>Francesco Cirillo</strong>. It consists of breaking work into
                         time blocks (the famous "Pomodoros") separated by short breaks.
-                        The goal is to maintain full focus for short periods while ensuring 
+                        The goal is to maintain full focus for short periods while ensuring
                         rest to prevent mental fatigue.
                     </p>
-
-                    <img src='https://placehold.co/1920x1080' alt='' />
 
                     <h2>How does the traditional Pomodoro work?</h2>
                     <ul>
@@ -50,22 +48,22 @@ export function AboutPomodoro() {
                     </h2>
 
                     <p>
-                        Our app follows the original concept but adds some improvements 
+                        Our app follows the original concept but adds some improvements
                         and customization options to make the process even more efficient:
                     </p>
 
                     <h3>⚙️ Customizable time settings</h3>
                     <p>
-                        You can set your own focus time, short break, and long break durations!  
+                        You can set your own focus time, short break, and long break durations!
                         Just head over to the{" "}
-                        <RouterLink href='/settings'>settings page</RouterLink> and adjust the minutes 
+                        <RouterLink href='/settings'>settings page</RouterLink> and adjust the minutes
                         as you prefer.
                     </p>
 
                     <h3>🔁 Organized sequential cycles</h3>
                     <p>
-                        After each completed cycle, a new task is automatically added 
-                        to your history, and the app suggests the next cycle 
+                        After each completed cycle, a new task is automatically added
+                        to your history, and the app suggests the next cycle
                         (focus or break).
                     </p>
                     <p>
@@ -79,7 +77,7 @@ export function AboutPomodoro() {
                             <strong>Even cycles:</strong> Short break.
                         </li>
                         <li>
-                            <strong>Cycle 8:</strong> Long special break to reset 
+                            <strong>Cycle 8:</strong> Long special break to reset
                             the full round.
                         </li>
                     </ul>
@@ -95,14 +93,14 @@ export function AboutPomodoro() {
                     </ul>
 
                     <p>
-                        This way, you’ll always know exactly where you are in the process 
+                        This way, you’ll always know exactly where you are in the process
                         and what’s coming next. No need to write it down or do mental math anymore!
                     </p>
 
                     <h3>📊 Automatic history</h3>
                     <p>
                         All your completed and interrupted tasks are saved in the{" "}
-                        <RouterLink href='/history'>history</RouterLink>, so you can track your 
+                        <RouterLink href='/history'>history</RouterLink>, so you can track your
                         progress over time.
                     </p>
 
@@ -116,7 +114,7 @@ export function AboutPomodoro() {
 
                     <p>
                         <strong>Ready to focus?</strong> Let’s{" "}
-                        <RouterLink href='/'>go back to the homepage</RouterLink> and start your 
+                        <RouterLink href='/'>go back to the homepage</RouterLink> and start your
                         Pomodoros! 🍅🚀
                     </p>
 
