@@ -44,3 +44,10 @@
 .thSort:hover {
   filter: brightness(80%);
 }
+
+.noTasks {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--gray-300);
+  margin-top: 4rem;
+}
