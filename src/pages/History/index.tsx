@@ -53,6 +53,10 @@ export function History() {
         }
     }, []);
 
+    useEffect(() => {
+        document.title = 'History - Task Manager';
+    }, []);
+
     const handleSortTasks = ({ field }: Pick<SortTasksOptions, 'field'>) => {
         const newDirection = sortTasksOptions.direction === 'desc' ? 'asc' : 'desc';
 
